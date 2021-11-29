@@ -1,0 +1,18 @@
+.pilot-detail-container {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 32px; 
+  flex-direction: column;
+  .avatar {
+    height: 100px; 
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  p {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}

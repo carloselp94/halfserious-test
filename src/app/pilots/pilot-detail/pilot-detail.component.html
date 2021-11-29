@@ -1,0 +1,11 @@
+<div class="pilot-detail-container">
+  <img class="avatar" src="https://media.gettyimages.com/photos/darth-vaders-head-picture-id540582204?s=612x612" alt="">
+  <h3>{{ pilot.name }}</h3>
+  <p>{{ pilot.gender }}</p>
+  <p>{{ pilot.height }} CM Height</p>
+  <h3>Starships:</h3>
+  <p *ngFor="let starship of pilot.starships">{{ starship }}</p>
+</div>
+<div class="text-center">
+  <a class="btn btn-default" [routerLink]="['/starships']">Go Back</a>
+</div>

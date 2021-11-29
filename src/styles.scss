@@ -1,0 +1,18 @@
+@import 'variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+body {
+  background-color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.yellow-color {
+  color: yellow;
+}
+
+.title {
+  font-weight: 900; 
+}

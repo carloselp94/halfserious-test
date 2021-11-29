@@ -1,0 +1,7 @@
+<div class="panel-heading" (click)="onClick()">{{ starship.name }}</div>
+<div class="panel-body" *ngIf="showInfo">
+  <p>Model: {{ starship.model }}</p>
+  <p>Created: {{ starship.created | date}}</p>
+  <h4>Pilots:</h4>
+  <p class="pilot-name" *ngFor="let pilot of starship.pilots" (click)="onGoToPilotDetail(pilot)">{{ pilot.name }}</p>
+</div>
